@@ -1,4 +1,8 @@
 index placeholder
 ===============================
 
-:版本:    placeholder
+placeholder
+--------------------
+
+.. tip::
+    placeholder
