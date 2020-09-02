@@ -10,3 +10,4 @@
 
    index
    java-lang/contents
+   javascript-lang/contents

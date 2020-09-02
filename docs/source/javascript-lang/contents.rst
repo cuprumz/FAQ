@@ -3,7 +3,7 @@
 .. _shell_contents:
 
 ===============================
-Java - contents
+JavaScript - contents
 ===============================
 
 .. contents::
