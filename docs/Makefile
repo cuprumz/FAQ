@@ -6,7 +6,7 @@
 SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
 SOURCEDIR     = source
-BUILDDIR      = ../../FAQ-docs
+BUILDDIR      = build
 # PDFBUILDDIR   = /tmp
 # PDF           = ../manual.pdf
 
