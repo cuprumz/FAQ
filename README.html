@@ -81,7 +81,6 @@
             
             
               <ul>
-<li class="toctree-l1"><a class="reference internal" href="index.html">Section Header</a></li>
 <li class="toctree-l1"><a class="reference internal" href="java-lang/contents.html">Java - contents</a></li>
 <li class="toctree-l1"><a class="reference internal" href="javascript-lang/contents.html">JavaScript - contents</a></li>
 </ul>
@@ -316,16 +315,19 @@ item uses two lines.</p></li>
 <span class="sd">    &quot;&quot;&quot;</span>
 </pre></div>
 </div>
-<p>For footnotes (ref), use <a href="#id7"><span class="problematic" id="id3">[#name]_</span></a> to mark the footnote location, and add the
+<p>For footnotes (ref), use <a class="footnote-reference brackets" href="#name" id="id3">1</a> to mark the footnote location, and add the
 footnote body at the bottom of the document after a “Footnotes” rubric
 heading, like so:</p>
-<p>Lorem ipsum <a class="footnote-reference brackets" href="#f1" id="id4">1</a> dolor sit amet ... <a class="footnote-reference brackets" href="#f2" id="id5">2</a></p>
+<p>Lorem ipsum <a class="footnote-reference brackets" href="#f1" id="id4">2</a> dolor sit amet ... <a class="footnote-reference brackets" href="#f2" id="id5">3</a></p>
 <p class="rubric">Footnotes</p>
 <dl class="footnote brackets">
-<dt class="label" id="f1"><span class="brackets"><a class="fn-backref" href="#id4">1</a></span></dt>
+<dt class="label" id="name"><span class="brackets"><a class="fn-backref" href="#id3">1</a></span></dt>
 <dd><p>Text of the first footnote.</p>
 </dd>
-<dt class="label" id="f2"><span class="brackets"><a class="fn-backref" href="#id5">2</a></span></dt>
+<dt class="label" id="f1"><span class="brackets"><a class="fn-backref" href="#id4">2</a></span></dt>
+<dd><p>Text of the first footnote.</p>
+</dd>
+<dt class="label" id="f2"><span class="brackets"><a class="fn-backref" href="#id5">3</a></span></dt>
 <dd><p>Text of the second footnote.</p>
 </dd>
 </dl>

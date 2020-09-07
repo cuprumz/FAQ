@@ -2,12 +2,11 @@
 
 .. _contents:
 
-内容目录
+Contents
 ========
 
 .. toctree::
-   :maxdepth: 2
+  :maxdepth: 2
 
-   index
-   java-lang/contents
-   javascript-lang/contents
+  java-lang/contents
+  javascript-lang/contents
