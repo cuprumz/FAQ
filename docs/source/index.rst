@@ -1,1 +1,1 @@
-README.rst
+contents.rst

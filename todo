@@ -1,0 +1,28 @@
+Java
+  基础
+    hashCode() equals()
+  拆箱装箱
+  容器
+  并发
+    https://ipotato.me/article/66
+    在多核 CPU 场景下，线程的执行是并行的吗？
+    在单核 CPU 场景下，使用多线程可以帮助我们提高程序的运行效率吗？
+    GIL 的存在是否意味着 Python 无法做到并发？它会影响所有的多线程场景吗？
+    不同语言实现并发主要通过哪几种方法？
+
+    https://github.com/Snailclimb/JavaGuide/blob/master/docs/java/Multithread/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97.md
+    1.什么是线程和进程？线程和进程的关系 区别以及优缺点
+    2.并发和并行的区别
+    3，为什么要使用多线程
+    4，多线程可能带来的问题 
+  JVM
+
+Network
+  TCP/IP
+  HTTP
+    POST vs GET
+
+
+datastructure and algorithm
+  Tree
+    B Tree vs B+ Tree

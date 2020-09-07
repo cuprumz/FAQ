@@ -19,7 +19,7 @@ this
     }
     obj.f2(f1, 1);
         
-.. tip::
+.. hint::
     output: 
     100
     2
