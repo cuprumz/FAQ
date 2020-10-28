@@ -26,3 +26,7 @@ Network
 datastructure and algorithm
   Tree
     B Tree vs B+ Tree
+
+transaction
+  事物的隔离级别
+  事物的传播
