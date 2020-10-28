@@ -161,18 +161,18 @@
 <h1>Problem Set<a class="headerlink" href="#problem-set" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="this">
 <h2>this<a class="headerlink" href="#this" title="Permalink to this headline">¶</a></h2>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">length</span> <span class="o">=</span> <span class="mi">100</span><span class="p">;</span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">length</span> <span class="o">=</span> <span class="mf">100</span><span class="p">;</span>
 <span class="kd">function</span> <span class="nx">f1</span><span class="p">()</span> <span class="p">{</span>
     <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">length</span><span class="p">);</span>
 <span class="p">}</span>
 <span class="kd">var</span> <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="nx">length</span><span class="o">:</span> <span class="mi">10</span><span class="p">,</span>
+    <span class="nx">length</span><span class="o">:</span> <span class="mf">10</span><span class="p">,</span>
     <span class="nx">f2</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">f1</span><span class="p">)</span> <span class="p">{</span>
         <span class="nx">f1</span><span class="p">();</span>
-        <span class="nx">arguments</span><span class="p">[</span><span class="mi">0</span><span class="p">]();</span>
+        <span class="nx">arguments</span><span class="p">[</span><span class="mf">0</span><span class="p">]();</span>
     <span class="p">}</span>
 <span class="p">}</span>
-<span class="nx">obj</span><span class="p">.</span><span class="nx">f2</span><span class="p">(</span><span class="nx">f1</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+<span class="nx">obj</span><span class="p">.</span><span class="nx">f2</span><span class="p">(</span><span class="nx">f1</span><span class="p">,</span> <span class="mf">1</span><span class="p">);</span>
 </pre></div>
 </div>
 <div class="admonition hint">

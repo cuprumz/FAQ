@@ -13,3 +13,4 @@ Java - contents
     :maxdepth: 3
 
     index
+    uml
