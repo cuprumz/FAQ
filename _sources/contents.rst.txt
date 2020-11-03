@@ -10,3 +10,4 @@ Contents
 
   java-lang/contents
   javascript-lang/contents
+  database/contents
